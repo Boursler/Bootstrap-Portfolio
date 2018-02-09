@@ -2,6 +2,7 @@
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Bootstrap Portfolio</title>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm"
         crossorigin="anonymous">
@@ -9,11 +10,6 @@
         body {
             background-image: url("images/topography/topography.png");
             font-family: 'Arial', 'Helvetica Neue', 'Helvetica', sans-serif;
-        }
-
-        img {
-            width: 260px;
-            height: 196px;
         }
     </style>
 </head>
@@ -29,45 +25,53 @@
     <div class="container">
         <div>
             <div class="row">
-                <div class="col-md-8 bg-white">
+
+                <div class="col-md-7 col-sm-12 bg-white text-info">
                     <h2 id="PortfolioHeader">Portfolio</h2>
                     <div class="row">
-                        <div class="col-md-6 card">
-                            <img class="card-text" src="images/1332412200_f14229ba01_z.jpg" />
-                            <a href="#">Hangman</a>
+
+                        <div class="col-md-6 col-sm-6 border-light">
+
+                            <img class="img-top img-fluid" src="images/1332412200_f14229ba01_z.jpg" />
+                            <a class="card-text" href="#">Hangman</a>
                         </div>
-                        <div class="col-md-6 card">
-                            <img class="img-top" src="images/1454275276_7248b73bb0_z.jpg ">
+
+                        <div class="col-md-6 col-sm-6 border-light">
+
+                            <img class="img-top img-fluid" src="images/1454275276_7248b73bb0_z.jpg ">
                             <a class="card-text" href="#">RPG Game</a>
                         </div>
+
+
                     </div>
 
-                    <div class="row">
-                        <div class="col-md-6 card">
-                            <img class="card-img-top" src="images/2101900604_c364e45012_z.jpg ">
+                    <div class="row card-group">
+                        <div class="col-md-6 col-sm-6 card border-light">
+                            <img class="img-top img-fluid" src="images/2101900604_c364e45012_z.jpg ">
                             <a class="card-text" href="#">Trivia Game</a>
                         </div>
-                        <div class="col-md-6">
-                            <img class="gallerypic" src="images/3336373804_a77deed8f6_z.jpg">
+                        <div class="col-md-6 col-sm-6 card border-light">
+                            <img class="img-top img-fluid" src="images/3336373804_a77deed8f6_z.jpg">
                             <a class="card-text" href="#">Rutgers Info Widget</a>
                         </div>
                     </div>
-                    <div class="galleryposition">
-                        <img class="gallerypic" src="images/537705502_36c751e32b_z.jpg">
-                        <a class="gallerylabels" href="#">Rock Paper Scissors</a>
+                    <div class="col-md-6 col-sm-6 border-light">
+                        <img class="img-top img-fluid" src="images/537705502_36c751e32b_z.jpg">
+                        <a class="card-text" href="#">Rock Paper Scissors</a>
                     </div>
+
                 </div>
-                <div class="col-md-4 float-left bg-white text-center">
+                <div class="col-md-4 col-sm-12 float-left bg-white text-center" style="margin-left:50px;">
                     <h2>Connect with Me</h2>
 
                     <a href="https://github.com/Boursler" target="_blank">
-                        <img class="connectImage" src="images/if_github_square_black_107109.png" style="height:62px;width:62px;" alt="github icon">
+                        <img class="img-fluid" src="images/if_github_square_black_107109.png" style="height:62px;width:62px;" alt="github icon">
                     </a>
                     <a href="https://stackoverflow.com/users/9137575/boursler" target="_blank">
-                        <img class="connectImage" src="images/if_overflow_386674.png" style="height:62px;width:62px;" alt="stack overflow icon">
+                        <img class="img-fluid" src="images/if_overflow_386674.png" style="height:62px;width:62px;" alt="stack overflow icon">
                     </a>
                     <a href="https://www.linkedin.com/in/briana-oursler-30511276/" target="_blank">
-                        <img class="connectImage" src="images/if_square-linkedin_317725.png" style="height:62px;width:62px;" alt="linked in icon">
+                        <img class="img-fluid" src="images/if_square-linkedin_317725.png" style="height:62px;width:62px;" alt="linked in icon">
                     </a>
 
                 </div>
